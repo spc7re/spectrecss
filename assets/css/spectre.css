@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Light';
+    src: url('../fonts/SourceSansPro-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Bold';
+    src: url('../fonts/SourceSansPro-Bold.ttf');
+}
+
+* {
+    font-family: 'Source Sans Pro Light';
+    color: #333;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.s-box {
+    float: left;
+    display: table;
+    text-align: left;
+    padding: 5px;
+}
+
+.s-box h2 {
+    margin: 0;
+}
+
+.cols-2:before, .cols-3:before, .cols-4:before, .cols-5:before, .cols-8:before {
+    content: '';
+    display: block;
+    border-top: 1px solid #bbb;
+}
+
+.cols-2 .s-box {
+    width: 50%;
+    float: left;
+}
+
+.cols-3 .s-box {
+    width: 33.33%;
+    float: left;
+}
+
+.cols-4 .s-box {
+    width: 25%;
+    float: left;
+}
+
+.cols-5 .s-box {
+    width: 20%;
+    float: left;
+}
+
+.cols-8 .s-box {
+    width: 12.5%;
+    float: left;
+}
+
+h1, h2, h3, h4 {
+    letter-spacing: 0.03em;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+strong, b {
+    font-family: 'Source Sans Pro Bold';
+    font-weight: normal;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #3a3a45;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: #12b17e;
+}
+
+.s-btn {
+    background-color: #eee;
+    border: 1px solid #888;
+    color: #888;
+    font-family: 'Source Sans Pro';
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.s-btn:hover {
+    color: #fff;
+    border-color: #333;
+    background-color: #333;
+    text-decoration: none;
+}
+
+.teal-bg {
+    background-color: #12b17e;
+    color: #fff;
+    border-color: #12b17e;
+}
+
+.block {
+    display: block;
+}
+
+a {
+    color: #12b17e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

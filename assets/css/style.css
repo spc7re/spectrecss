@@ -1,0 +1,126 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+nav {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #282830;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+nav li a:hover, nav li #active {
+    background-color: #12b17e;
+    text-decoration: none;
+}
+
+.website-title a {
+    font-family: 'Source Sans Pro Bold' !important;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #3a3a45;
+    font-size: 18px;
+}
+
+.item-divided {
+    border-top: 1px solid #3a3a45;
+}
+
+.logo {
+    background: url('../images/logo.png') no-repeat;
+    width: 411px;
+    height: 48px;
+    margin: auto;
+}
+
+#slogan {
+    text-transform: uppercase;
+    letter-spacing: 0.12em !important;
+}
+
+code {
+    border: 1px solid #ccc;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    font-family: 'Source Sans Pro';
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #eee;
+    box-shadow: inset 0 0 10px #ddd;
+    color: #888;
+    border-radius: 2px;
+}
+
+code span {
+    font-family: 'Source Sans Pro';
+}
+
+code .teal {
+    color: #12b17e;
+}
+
+.margin {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#container, footer {
+    margin-left: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#container {
+    vertical-align: top;
+    padding: 50px;
+}
+
+footer p {
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro' !important;
+    font-size: 13px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.color-bg {
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Source Sans Pro';
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.color-name, .color-hex {
+    vertical-align: middle;
+    display: block;
+    margin: 0;
+}
